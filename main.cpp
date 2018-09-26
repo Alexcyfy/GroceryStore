@@ -22,13 +22,13 @@ int main()
   if(input == 'A'||input=='a')
   {
   cout<<"What is the item?"<<endl;
+  cin>>item;
   if(numItems >= 5)
   {
   cout<<"You'll need a bigger list!"<<endl;
   }
   else
   {
-  cin>>item;
   list[numItems] = item;
   numItems = numItems + 1;
   }
