@@ -20,8 +20,8 @@ int main()
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
   if(input == 'A'||input=='a')
-  cout<<"What is the item?";
   {
+  cout<<"What is the item?"<<endl;
   if(numItems >= 5)
   {
   cout<<"You'll need a bigger list!";
