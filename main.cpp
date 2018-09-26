@@ -20,6 +20,7 @@ int main()
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
   if(input == 'A'||input=='a')
+  cout<<"What is the item?";
   {
   if(numItems >= 5)
   {
@@ -27,7 +28,6 @@ int main()
   }
   else
   {
-  cout<<"What is the item?";
   cin>>item;
   list[numItems] = item;
   numItems = numItems + 1;
