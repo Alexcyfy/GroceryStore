@@ -27,7 +27,7 @@ int main()
   }
   else
   {
-  cout<<"What is the item?"<<endl;
+  cout<<"What is the item?";
   cin>>item;
   list[numItems] = item;
   numItems = numItems + 1;
