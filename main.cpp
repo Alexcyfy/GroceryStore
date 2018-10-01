@@ -39,5 +39,9 @@ int main()
   break;
   }
  }
+ for(int index = 0; index < 5; index++)
+ {
+ cout<<index+1 <<" "<<list[index]<<endl;
+ }
   return 0;
 }
