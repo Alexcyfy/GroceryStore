@@ -7,9 +7,10 @@ using namespace std;
 int main()
 {
  vector <string> list; //vector of a string list
-  int numItems = 0;
   char input;
   int start;
+  int numItem;
+  numItem = 0;
   start = 1;
   string item;
   while(start =1)
@@ -25,12 +26,12 @@ int main()
   cout<<"What is the item?"<<endl;
   cin>>item;
   list.push_back(item);
-  numItems = numItems + 1;
+  numItem = numItem + 1;
   }
  
   if(input == 'Q'||input == 'q' )
   {
-  if(numItems ==0)
+  if(numItem ==0)
   {
   cout<<"No items to buy!"<<endl;
   }
@@ -38,10 +39,10 @@ int main()
   break;
   }
  }
-if(numItems > 0)
+if(numItem > 0)
 {
  cout<<"==ITEMS TO BUY=="<<endl;
- for(int index = 0; index < numItems; index++)
+ for(int index = 0; index < numItem; index++)
  {
  cout<<index+1 <<" "<<list[index]<<endl;
  }
